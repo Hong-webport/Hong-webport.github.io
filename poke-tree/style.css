@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
     background: rgba(yellow)
   }
@@ -10,4 +11,18 @@
 } 
 .bg-light{
     background-color: Black;
+=======
+.body {
+    background: rgba(yellow)
+  }
+
+.navbar {
+    background-color: Black;
+}
+.navbar-light{
+    background-color: Black;
+} 
+.bg-light{
+    background-color: Black;
+>>>>>>> 572dbf4bea72599fa0522f2290b0081f08828bde
 }
