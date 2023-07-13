@@ -1,0 +1,65 @@
+
+@font-face {font-family: 'gotham-black'; 
+  src: url(gotham/Gotham-Black.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'gotham-black';
+  src: url(gotham/Gotham-Bold.otf)format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-black';
+  src: url(gotham/Gotham-BookItalic.otf)format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'gotham-light';
+  src: url(gotham/Gotham-Light.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-thin';
+  src: url(gotham/Gotham-Thin.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-thin';
+  src: url(gotham/Gotham-ThinItalic.otf)format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'univers-light';
+  src: url(univers/UniversLTStd-Bold.otf)format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'univers-light';
+  src: url(univers/UniversLTStd.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{font-family: gotham-light;
+  font-size: 4em;}
+
+h3{font-family: gotham-light;}
+h6{font-family: gotham-light;}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: blueviolet;
+}
