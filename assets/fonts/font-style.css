@@ -54,12 +54,18 @@
 
 h1{font-family: gotham-light;
   font-size: 4em;}
+h2{font-family: gotham-light;}
+h4{font-family: gotham-light;}
+h5{font-family: gotham-light;}
+p{font-family: gotham-light;}
 
 h3{font-family: gotham-light;}
 h6{font-family: gotham-light;}
+p{font-family: gotham-light;}
+a{font-family: gotham-light;}
 
-/* Modify brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: blueviolet;
-}
+.card-title{font-family: univers-light; padding-top: 10px;}
+.card-link{font-family: gotham-light;}
+.nav-item{font-family: gotham-light;}
+
+/* Modify brand and text color *
