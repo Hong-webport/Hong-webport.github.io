@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @font-face {font-family: 'gotham-black'; 
   src: url(gotham/Gotham-Black.otf)format('opentype');
@@ -68,4 +69,76 @@ a{font-family: gotham-light;}
 .card-link{font-family: gotham-light;}
 .nav-item{font-family: gotham-light;}
 
+=======
+
+@font-face {font-family: 'gotham-black'; 
+  src: url(gotham/Gotham-Black.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'gotham-black';
+  src: url(gotham/Gotham-Bold.otf)format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-black';
+  src: url(gotham/Gotham-BookItalic.otf)format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'gotham-light';
+  src: url(gotham/Gotham-Light.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-thin';
+  src: url(gotham/Gotham-Thin.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-thin';
+  src: url(gotham/Gotham-ThinItalic.otf)format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'univers-light';
+  src: url(univers/UniversLTStd-Bold.otf)format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'univers-light';
+  src: url(univers/UniversLTStd.otf)format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{font-family: gotham-light;
+  font-size: 4em;}
+h2{font-family: gotham-light;}
+h4{font-family: gotham-light;}
+h5{font-family: gotham-light;}
+p{font-family: gotham-light;}
+
+h3{font-family: gotham-light;}
+h6{font-family: gotham-light;}
+p{font-family: gotham-light;}
+a{font-family: gotham-light;}
+
+.card-title{font-family: univers-light; padding-top: 10px;}
+.card-link{font-family: gotham-light;}
+.nav-item{font-family: gotham-light;}
+
+>>>>>>> 2157bccca7d3921d9f511c61a6bd9be8decb5165
 /* Modify brand and text color *
