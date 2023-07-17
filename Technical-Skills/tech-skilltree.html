@@ -10,10 +10,10 @@
   </head>
   
 <body style= "background-color:  #f4f6f6   ">
-
+<div class="sticky-top">
   <!-- start navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light"style="justify-content: center;   align-items: center;  ">
-    <a class="navbar-brand" style="padding-left: 50px;" href="../../index.html">LHCR</a>
+    <a class="navbar-brand" style="padding-left: 50px;" href="../index.html">LHCR</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style=" color: 'green'">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,62 +23,52 @@
    
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="font-family: univers-light; font-size: larger;"
-        style ="font-family: 'gotham-light';   justify-content: center;   align-items: center; ">
-                   Data Visualizations
-
-        </a>
+        style ="font-family: 'gotham-light';   justify-content: center;   align-items: center; "> | Data Visualizations </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="justify-content: center;   align-items: center;  ">
           <a class="nav-link" href="../DataViz-Projects/Current/datavis-current.html">In-Progress</a>
           <div class="dropdown-divider"></div>
           <a class="nav-link" href="../DataViz-Projects/Individual/datavis-self-gallery.html">Individual</a>
           <div class="dropdown-divider"></div>
           <a class="nav-link" href="../DataViz-Projects/Team/dataviz-team-gallery.html">Team</a>
-          
         </div>
       </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: univers-light; font-size: larger;">
-          Coding Projects 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="nav-link" href="https://github.com/Hong-webport">Active Github</a>
-          <div class="dropdown-divider"></div>
-          <a class="nav-link" href="https://github.com/Hong-Georgia-Data?tab=repositories">Bootcamp Github</a>
-        </div>
-        
+        <a href="#" class="nav-link" style="font-family: univers-light; font-size: larger;"> | My Skill Trees | </a>
       </li>
-
-      <li class="nav-item">
-        <a href="Technical-Skills/tech-skllltree.html" class="nav-link" style="font-family: univers-light; font-size: larger;">Skill Trees</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="Technical-Skills/tech-skllltree.html" class="nav-link" style="font-family: univers-light; font-size: larger;">Profile</a>
-      </li>
-<!--       
-      <nav class="navbar navbar-light bg-light">
-          <a href="" class="btn btn-outline me-2" type="button">Technical Skill Trees</a>
-      </nav>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: univers-light; font-size: larger;">
-          Professional Experiences
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="nav-link" href="#">Profile</a>
-       <div class="dropdown-divider"></div>
-       <a class="nav-link" href="../pdf_links/Resume-7-05-23.pdf">Resume (pdf)</a>
-         <div class="dropdown-divider"></div>
-         <a class="nav-link" href="../old-site.html">Interactive Resume (Old Site)</a>
+      <!-- <li class="nav-item">
+        <a href="" class="nav-link" style="font-family: univers-light; font-size: larger;"> | Profile | </a>
       </li> -->
-      
+      <li class="nav-item">
+        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <a class="nav-link"  style="font-family: univers-light; font-size: larger;"> | Coding Projects | </a>
+        </button>
+            </li>
     </div>
 
    
   </div>
-</nav>
+</nav></div>
 <!-- End Navigation -->
+<!-- modal  -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title" id="exampleModalLabel">Just the Codes</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>I've done more codings projects than the ones shown in this site. They are stored in these Github Repositories.</p>
+        <p>This is the one I am actively using.
+        <a href="https://github.com/Hong-webport" class="nav-link"  style="font-family: univers-light;">Link to Active Github</a></p>
+        <p>This is the one that I uploaded at the time of Bootcamp. 
+          <a href="https://github.com/Hong-webport" class="nav-link"  style="font-family: univers-light;">Link to Bootcamp Github</a></p>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal  -->
 
 <!-- Page-Content -->
 <div class= "container" >
@@ -96,14 +86,14 @@
     <!-- <h4 class="card-title" style="text-align: Center">Practicing_with_CFPB_API</h4> -->
   <!-- remember to change the links -->                
                   <div class="card-body">
-                    <div class="col-6"><h3 class="mb-3">Data Management</h3></div>
+                    <div class="col-6"><h4 class="mb-3">Experiences</h4></div>
 
                 <img class="img-fluid" style="width:'360'; height :480'"src="../assets/picts/DataManagement 07162023.png">
 
             </div></div>
             <div class="card" style="";">
                         <div class="card-body">
-                        <div class="col-6"><h3 class="mb-3">Full Languages/Libraries/Frameworks</h3></div>
+                        <div class="col-6"><h4 class="mb-3">Languages/Libraries/Frameworks</h4></div>
 
                 <img class="img-fluid" style="width:'360'; height :480'"src="../assets/picts/Skill-List-Code 7-16-23.png">
                   <!-- <img class="img-fluid" style="width:'360px'; height :480px'"src="../assets/picts/JS and Others 07162023.png"> -->
@@ -112,13 +102,13 @@
 
                 <div class="card" style="";">
                     <div class="card-body">
-                      <div class="col-6"><h3 class="mb-3">Python Libraries </h3></div>
+                      <div class="col-6"><h4 class="mb-3">The Trees of Python Libraries That I Used</h4></div>
                       <img class="img-fluid" style="width:'360'; height :480'"src="../assets/picts/Pythons Libraries 07162023.png">
                     </div>                </div>
 
                     <div class="card" style="";">
                         <div class="card-body">                                  
-                            <div class="col-md-6"><h3 class="mb-3">JavaScript and Others </h3></div>
+                            <div class="col-md-6"><h4 class="mb-3">JavaScript and Others </h4></div>
                     <div class="col-sm-6">
                         <figure>
                            
@@ -170,14 +160,14 @@
             <h6 class="text-muted">Phone: 864 279 3641  | Email: lhcr.workline@gmail.com</h6>
             <br>
             
-            <p class="text-muted">I build and design this website to keep track my self-learning journey and personal projects. <br>      
+            <!-- <p class="text-muted">I build and design this website to keep track my self-learning journey and personal projects. <br>      
            Not one if I want to apply to a UI/UX position. 
            It should load faster and has more clicks as a result. <br>               <br>
  
            <h7 class="text-muted">(The Website is under construction/migration. Some pages are being rebuilt and now unavailable. The old site still working for now.)</h6>
             <br>
               It would be much easier to use Squarespace or Wordpress 
-              but I learn more about web frameworks this way and no payment required.</p>
+              but I learn more about web frameworks this way and no payment required.</p> -->
 
 
         </div>
