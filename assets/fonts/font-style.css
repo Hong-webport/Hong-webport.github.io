@@ -57,7 +57,7 @@ h1{font-family: gotham-light;
 h2{font-family: gotham-light;}
 h4{font-family: gotham-light;}
 h5{font-family: gotham-light;}
-p{font-family: gotham-light;}
+p{font-family: gotham-light; font-size: small; line-height: 1.2; letter-spacing: 0.5px;}
 
 h3{font-family: gotham-light;}
 h6{font-family: gotham-light;}
@@ -68,5 +68,9 @@ a{font-family: gotham-light;}
 .card-link{font-family: gotham-light;}
 .nav-item{font-family: gotham-light;}
 .btn{font-family: gotham-light;}
+
+body {
+  position: relative;
+}
 
 /* Modify brand and text color *
